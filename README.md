@@ -3,7 +3,7 @@
 # Table of Contents 
 * Description
 * Tools Used
-* Worked with
+* Worked with Aaron Whitney
 * Link & Screen Shot
 
 # Description 
