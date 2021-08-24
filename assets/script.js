@@ -48,6 +48,14 @@ let questions = [
     }
 ]
 
+fetch("questions.json")
+    .then( res => {
+        return res.json();
+    })
+    .then( loadedQuestions => {
+    console.log(loadedQuestions);
+});
+
 // CONSTANTS
 const CORRECT_BONUS = 10;
 const MAX_QUESTIONS = 4;
@@ -62,6 +70,7 @@ startGame = () => {
 getNewQuestion = () => {
 
     if(availableQuestions.length === 0 || questionCounter > MAX_QUESTIONS){
+        localStorage.setItem("mostRecentScore", score);
         //go to the end page
         return window.location.assign("end.html");
     }
@@ -113,3 +122,15 @@ incrementScore = num => {
 };
 
 startGame();
+
+var sec = 30;
+var time = setInterval(myTimer, 1000);
+
+function myTimer() {
+    document.getElementById('timer').innerHTML = sec + "sec left";
+    sec--;
+    if (sec == -1) {
+        clearInterval(time);
+        alert("Time out!! :(");
+    }
+}

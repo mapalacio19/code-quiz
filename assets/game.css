@@ -61,3 +61,8 @@
     background-color: #0000ff;
     width: 0%;
 }
+
+span {
+    position: top;
+    left: 500px;
+}

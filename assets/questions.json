@@ -1,0 +1,37 @@
+[
+    {
+        "question": "Which artist or band sold the most records?",
+        "choice1": "Garth Brooks",
+        "choice2": "The Beatles",
+        "choice3": "Michael Jackson",
+        "choice4": "Elvis Presley",
+        "answer": 2
+    },
+
+    {
+        "question": "How many bands has the lead singer of the Foo Fighters (Dave Grohl) been in?",
+        "choice1": "42",
+        "choice2": "7",
+        "choice3": "11",
+        "choice4": "30",
+        "answer": 4
+    },
+
+    {
+        "question": "What is Snoop Doggs real name?",
+        "choice1": "Calvin Roy Smith Jr.",
+        "choice2": "Sean John Cordozar",
+        "choice3": "Calvin Cordozar Broadus Jr.",
+        "choice4": "Lucas John",
+        "answer": 3
+    },
+
+    {
+        "question": "What is the most known jazz instrument?",
+        "choice1": "Trumpet",
+        "choice2": "Drums",
+        "choice3": "Piano",
+        "choice4": "Saxophone",
+        "answer": 4
+    }
+]
